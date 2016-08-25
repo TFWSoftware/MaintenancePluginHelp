@@ -1,0 +1,67 @@
+<!-- Last mod: 10 December 2015 11:53:50 -->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<Title>Tea Time!</Title>
+		<meta content="Phil J Pearson" name="AUTHOR">
+		<meta charset="utf-8" />
+        <link href="coua.css" rel="stylesheet">
+        <link href="htmlhelp.css" rel="stylesheet">
+		<script src="hhscript.js"></script>
+    </head>
+	<body oncontextmenu="return false;">
+		<div class="header">
+			<h1>Tea Time!</h1>
+		</div>
+        <div class="body">
+            <p>
+                It is important to ensure that Phil gets tea regularly. Without this regular supply he gets cranky and his work becomes erratic and unreliable. <br />
+                <span class="italic">(He will be cranky, erratic and unreliable anyway, but that's no reason to risk withholding tea.)</span>
+            </p>
+            <h2>
+                Method
+            </h2>
+            <img src="mug.jpg" style="float:left; margin-right:20px; margin-bottom:20px;" />
+            <p>
+                The task is best done by filling a good-quality mug with freshly-brewed English Breakfast tea<sup>1</sup> with a little milk.
+            </p>
+            <p>
+                On occasions when that is not possible cardboard tea is acceptable.<br />
+                <span class="important">On no account should plastic tea be offered - serious damage may result.</span>
+            </p>
+            <div style="position: relative; margin:40px;">
+                <!-- this way works well provided that a high enough version of IE is emulated, determined by reg setting for the hosting
+                     application (Welder.exe), but the video must be in the same folder as the chm file
+                -->
+                <video id="tea_vid" width="210" height="118" controls autoplay="true" loop="infinite">
+                    <source src="" type="video/mp4">
+                    Oops! No video support ;(
+                </video>
+                <script type="text/javascript">
+                    // NOTE: the path supplied to getAbsPath must be the path of the video RELATIVE TO THE FINAL CHM, not to this htm file
+                    document.getElementById('tea_vid').src = getAbsPath('VID_20151120_120551.mp4');
+                </script>
+
+                <!-- this way embeds the video file in the chm and _sometimes_ works (?) -->
+                <!--
+                <img id="embedded-img" width=210 height="118" start="fileopen" loop="infinite" dynsrc="VID_20151120_120551.mp4">
+                -->
+            </div>
+            <br style="clear:both;" />
+            <h5 class="note">
+                Notes
+            </h5>
+            <ol>
+                <li>Other kinds of tea may also be acceptable. Please contact TFW software department for details.</li>
+            </ol>
+        </div>            
+        <div class="footer">
+            <p>
+                The application <strong>MaintenancePlugin</strong> and its documentation (including
+                this online help information) are copyright © 2016 by Thompson Friction
+                Welding Limited and Real World Software. All rights reserved.
+            </p>
+        </div>
+	</body>
+</html>

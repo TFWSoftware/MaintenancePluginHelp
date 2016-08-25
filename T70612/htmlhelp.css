@@ -1,0 +1,186 @@
+/* Phil's HTML Help CSS*/
+
+body
+{
+    font-size: 80%;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	background-color: #fefec2;
+}
+
+body.intf      {  background-color: #66ccff;	}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+a:link
+{
+    background: transparent; 
+	color: #0000FF;
+} 
+
+a:visited	{  color: #800080;	}
+
+ol li		{ padding-bottom: 4pt;	}
+
+ul
+{
+	margin-left: 15mm;
+	position: relative;
+}
+
+code		{  font-family: Courier; 	}
+
+pre		{  font-family: Courier; 	}
+
+table
+{
+    text-align: left;
+    border-spacing: 0;
+}
+			
+th
+{
+    text-align: left;
+    color: white;
+    background-color: black;
+}
+
+td
+{
+    margin-right: 2em;
+    padding: .5em;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+}
+
+/*
+*	Headings
+*/
+h1		{font-size: 145%; margin-bottom: 1.5em; }
+h2		{font-size: 125%; margin-top: 1.5em; margin-bottom: .5em; color: darkgreen;}
+h3		{font-size: 110%; margin-top: 1.2em; margin-bottom: .5em;}
+
+.header
+{
+	background-color: darkgreen;
+	padding-left: 12px;
+	padding-top: 3px;
+	padding-bottom: 1px;
+	color: white;
+}
+.header h1
+{
+    margin-bottom: .8em; 
+}
+
+.body
+{
+    background: white;
+    margin: 8pt;
+    padding: 6pt;
+}
+
+/* Overview heading   */
+h5.overh	{  font-size: 120%;	}           
+
+h5		{  font-size: 100%;	}           
+
+/* Procedure heading  */
+h5.proch	{    font-size: 100%;	}          
+
+/* Decision heading   */
+h5.what     	{    font-size: 100%; 
+		color: #993399;		}           
+
+/* Note & Tip heading */
+h5.note		{    font-size: 95%; 	}          
+
+/* body paragraph */
+p.body 		{ margin-top:4.0pt; }
+
+/* indented paragraph */
+p.indent 	{ margin-left: 5mm; }
+
+.italic { font-style: italic; }
+
+#ratdiv { position: relative; }
+#rat
+{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.important, .tba
+{
+	font-weight: bold;
+	font-size: larger;
+	color: crimson;
+}
+
+/* Lubricants table */
+.lubricant
+{
+	font-weight: bold;
+	font-size: larger;
+	color: magenta;
+}
+table.lubricants 
+{
+    width: 99%;
+    border-collapse: collapse;
+}
+.lubricants th
+{
+    width: 33%;
+    text-align: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    height: 2em;
+    vertical-align: middle;
+}
+.lubricants td:nth-child(1)
+{
+    background-color: #FECB00;
+    color: #D52B1E;
+}
+.lubricants td:nth-child(2)
+{
+    background-color: #ED1B2F;
+    color: white;
+}
+.lubricants td:nth-child(3)
+{
+    background-color: #009900;
+    color: #FFFE03;
+}
+.lubricants tr:hover td
+{
+    background-color: aqua;
+    color: black;
+}
+.lubricants td
+{
+    text-align: center;
+    border-bottom: 2px solid black;
+    vertical-align: middle;
+}
+
+
+/* footer */
+.footer
+{
+	background-color: darkgreen;
+    margin-top: 6pt;
+	padding-left: 12px;
+    padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: white;    
+    text-align: center;
+    font-size: 80%;
+}
+
+
