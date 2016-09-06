@@ -134,24 +134,30 @@ table.lubricants
 }
 .lubricants th
 {
-    width: 33%;
+    width: 25%;
     text-align: center;
     border-left: 2px solid white;
     border-right: 2px solid white;
     height: 2em;
     vertical-align: middle;
 }
+
 .lubricants td:nth-child(1)
+{
+    background-color: #0C479D;
+    color: #FE000C;
+}
+.lubricants td:nth-child(2)
 {
     background-color: #FECB00;
     color: #D52B1E;
 }
-.lubricants td:nth-child(2)
+.lubricants td:nth-child(3)
 {
     background-color: #ED1B2F;
     color: white;
 }
-.lubricants td:nth-child(3)
+.lubricants td:nth-child(4)
 {
     background-color: #009900;
     color: #FFFE03;
@@ -168,6 +174,13 @@ table.lubricants
     vertical-align: middle;
 }
 
+.reminder
+{
+	font-weight: bold;
+	color:crimson;
+  vertical-align: middle;
+	padding-left: 20px;
+}
 
 /* footer */
 .footer

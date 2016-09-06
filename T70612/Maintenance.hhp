@@ -10,16 +10,22 @@ Language=0x809 English (United Kingdom)
 [WINDOWS]
 Default="Maintenance Information",,,,,,,,,0x42020,,0x200c,,0x10840000,,,1,,,0
 
-
 [FILES]
-daily.htm
+daily1.htm
+daily2.htm
 weekly.htm
-monthly.htm
+monthly1.htm
+monthly2.htm
+monthly3.htm
 threemonthly.htm
-sixmonthly.htm
+sixmonthly1.htm
+sixmonthly2.htm
+sixmonthly3.htm
 chucklube.htm
 chuckrefurb.htm
-yearly.htm
+filters.htm
+yearly1.htm
+yearly2.htm
 Teatime.htm
 Default.htm
 

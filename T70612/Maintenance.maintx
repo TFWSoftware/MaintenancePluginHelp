@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMaintenanceItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>1</Interval>
+    <OverdueLimit>0</OverdueLimit>
+    <Title>Daily cleaning and checks</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Daily cleaning and checks</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>daily1.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-09-01T10:49:41.178098+01:00</LastDoneTime>
+    <LastDoneCount>130</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>1</Interval>
+    <OverdueLimit>0</OverdueLimit>
+    <Title>Daily lubrication and checks</Title>
+    <Text />
+    <ForeignTitle>Daily lubrication and checks</ForeignTitle>
+    <ForeignText />
+    <HtmlFile>daily2.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>0001-01-01T00:00:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>RunHours</IntervalType>
+    <Interval>2</Interval>
+    <OverdueLimit>1</OverdueLimit>
+    <Title>Replenish the software engineer's tea</Title>
+    <Text>Phil's probably thirsty</Text>
+    <ForeignTitle>Replenish the software engineer's tea</ForeignTitle>
+    <ForeignText>Phil's probably thirsty</ForeignText>
+    <HtmlFile>Teatime.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-08-19T16:18:24.9870649+01:00</LastDoneTime>
+    <LastDoneCount>129</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Cycles</IntervalType>
+    <Interval>500</Interval>
+    <OverdueLimit>100</OverdueLimit>
+    <Title>Lubricate chuck</Title>
+    <Text>Lubricate the chuck</Text>
+    <ForeignTitle />
+    <ForeignText>Lubricate the chuck</ForeignText>
+    <HtmlFile>chucklube.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-07T12:10:19.5847161+01:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>7</Interval>
+    <OverdueLimit>2</OverdueLimit>
+    <Title>Weekly cleaning and checks</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Weekly cleaning and checks</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>weekly.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-08-30T10:09:17.7835262+01:00</LastDoneTime>
+    <LastDoneCount>130</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>30</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Monthly cleaning and checks</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Monthly cleaning and checks</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>monthly1.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-08-30T10:09:21.1847208+01:00</LastDoneTime>
+    <LastDoneCount>130</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>30</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Monthly cleaning and lubrication</Title>
+    <Text />
+    <ForeignTitle>Monthly cleaning and lubrication</ForeignTitle>
+    <ForeignText />
+    <HtmlFile>monthly2.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>0001-01-01T00:00:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>30</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Monthly maintenance</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Monthly maintenance</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>monthly3.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>0001-01-01T00:00:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>90</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Three monthly cleaning and checks</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Three monthly cleaning and checks</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>threemonthly.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:04.0330002+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>180</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Six monthly checks</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Six monthly checks</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>sixmonthly1.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:07.8729523+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>180</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Six monthly cleaning and lubrication</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Six monthly cleaning and lubrication</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>sixmonthly2.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:07.8729523+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>180</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Six monthly maintenance</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Six monthly maintenance</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>sixmonthly3.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:07.8729523+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>180</Interval>
+    <OverdueLimit>7</OverdueLimit>
+    <Title>Clean filters</Title>
+    <Text>Clean the air conditioner and spindle motor blower filters. See the help information for details.</Text>
+    <ForeignTitle>Clean filters</ForeignTitle>
+    <ForeignText>Clean the air conditioner and spindle motor blower filters. See the help information for details.</ForeignText>
+    <HtmlFile>filters.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>0001-01-01T00:00:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>365</Interval>
+    <OverdueLimit>30</OverdueLimit>
+    <Title>Yearly lubrication</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Yearly lubrication</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>yearly1.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:10.2664642+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Days</IntervalType>
+    <Interval>365</Interval>
+    <OverdueLimit>30</OverdueLimit>
+    <Title>Yearly maintenance</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Yearly maintenance</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>yearly2.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>2016-06-20T14:40:10.2664642+01:00</LastDoneTime>
+    <LastDoneCount>44</LastDoneCount>
+  </MaintenanceItem>
+  <MaintenanceItem>
+    <Type>Normal</Type>
+    <State>Normal</State>
+    <IntervalType>Cycles</IntervalType>
+    <Interval>30000</Interval>
+    <OverdueLimit>5000</OverdueLimit>
+    <Title>Refurbish the chuck</Title>
+    <Text>See the help information for details.</Text>
+    <ForeignTitle>Refurbish the chuck</ForeignTitle>
+    <ForeignText>See the help information for details.</ForeignText>
+    <HtmlFile>chuckrefurb.htm</HtmlFile>
+    <Count>0</Count>
+    <LastDoneTime>0001-01-01T00:00:00</LastDoneTime>
+    <LastDoneCount>0</LastDoneCount>
+  </MaintenanceItem>
+</ArrayOfMaintenanceItem>
